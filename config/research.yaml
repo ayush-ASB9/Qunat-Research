@@ -1,0 +1,15 @@
+project_name: "53rd Card"
+market_universe:
+  - SPY
+  - QQQ
+  - IWM
+  - DIA
+  - VIX
+  - XLF
+  - XLK
+  - XLE
+research_hypothesis: "The Invisible Player"
+feature_window: 20
+lookback_days: 252
+volatility_regime_bins: 3
+min_valid_observations: 50

@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+ENV/
+
+# Environment and local config
+.env
+.env.local
+.env.*
+!.env.example
+
+# Testing and tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and outputs
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+/data/external/*
+!/data/external/.gitkeep
+/results/figures/*
+!/results/figures/.gitkeep
+/results/tables/*
+!/results/tables/.gitkeep
+/results/reports/*
+!/results/reports/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
